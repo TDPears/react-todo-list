@@ -1,7 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 import Todolist from './TodoList'
 import { v4 as uuid } from 'uuid'
-import TodoItem from './TodoItem';
 
 const LOCAL_STORAGE_KEY = "todoApp.todoItems"
 
